@@ -348,8 +348,9 @@
   }
   .logo__line_3 {
     width: 38px;
-    bottom: 6.6px;
-    transform: rotate(60deg);
+    bottom: 7.6px;
+    left: -7.5px;
+    transform: rotate(63deg);
   }
   .logo__line_4 {
     width: 275px;
@@ -362,7 +363,7 @@
     bottom: 136px;
   }
   .logo__line_6 {
-    width: 42px;
+    width: 40px;
     left: 134px;
     top: 4px;
   }
