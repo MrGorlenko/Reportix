@@ -1,0 +1,221 @@
+$base-width: 305px;
+
+
+.logo{
+    &__block{
+        width: 376px;
+        height: 325.5px;
+        margin: auto;
+        position: relative;
+    }
+    &__line{
+        height: 11px;
+        background: #3079ea;
+        border-radius: 45px;
+        &_1{
+            // width: 310px;
+            width: 0;
+            transition: width .2s ease;
+            position: absolute;
+            bottom: 0;
+            left: 32.6px;
+            transform: rotate(-180deg);
+        }
+        &_2{
+            // width: 56.6px;
+            width: 0;
+            transition: width .2s ease;
+            left: 324.5px;
+            position: absolute;
+            bottom: 18.6px;
+            transform: rotate(-50deg);
+        }
+        &_3{
+            width: 0;
+            transition: width .2s ease;
+            // width: 55.6px;
+            left: -6px;
+            position: absolute;
+            bottom: 18.6px;
+            transform: rotate(50deg);
+        }
+        &_4{
+            // width: 321.7px;
+            width: 0;
+            transition: width .2s ease;
+            position: absolute;
+            transform: rotate(60deg);
+            left: 130.5px;
+            bottom: 172px;
+            transform: rotate(60deg);
+        }
+        &_5{
+            // width: 321.7px;
+            width: 0;
+            transition: width .2s ease;
+            position: absolute;
+            left: -77.5px;
+            bottom: 173px;
+            transform: rotate(-60deg);
+        }
+        &_6{
+            // width: 56.6px;
+            width: 0;
+            transition: width .2s ease;
+            position: absolute;
+            left: 160px;
+            top: 8px;
+        }
+         &_7{
+            transform: rotate(-60deg);
+            bottom: 107px;
+            left: -24px;
+            position: absolute;
+            // width: 245px;
+            width: 0;
+            transition: width .2s ease;
+         }
+         &_8{
+            transform: rotate(60deg);
+            // width: 318px;
+            position: absolute;
+            top: 142px;
+            left: 79px;
+
+            width: 0;
+            transition: width .2s ease;
+         }
+
+         &_9{
+            // width: 180px;
+            position: absolute;
+            bottom: 39px;
+            left: 185px;
+
+            width: 0;
+            transition: width .2s ease;
+         }
+         &_10{
+            position: absolute;
+            // width: 157px;
+            transform: rotate(60deg);
+            top: 169px;
+            left: 116px;
+
+            width: 0;
+            transition: width .2s ease;
+         }
+         &_11{
+            transform: rotate(-60deg);
+
+            position: absolute;
+            // width: 143px;
+            top: 215px;
+            left: 83px;
+
+            width: 0;
+            transition: width .2s ease;
+         }
+         &_12{
+            position: absolute;
+            // width: 50px;
+            bottom: 39px;
+            left: 115px;
+
+            width: 0;
+            transition: width .2s ease;
+         }
+
+         &_13{
+            position: absolute;
+            // width: 150px;
+            bottom: 80px;
+            left: 142px;
+
+            width: 0;
+            transition: width .2s ease;
+         }
+    }
+
+    &__label{
+        font-family: Lato;
+        position: absolute;
+        font-size: 37px;
+        transition: opacity .2s ease-in;
+        &_investor{
+            opacity: 0;
+            left: 125px;
+            top: -50px;
+        }
+        &_founder{
+            opacity: 0;
+            bottom: -45px;
+            left: -70px;
+        }
+        &_team{
+            opacity: 0;
+            bottom: -45px;
+            right: -50px;
+        }
+    }
+}
+
+.label_visible{
+    opacity: 1;
+    transition: opacity 1.2s ease;
+}
+
+.line_active{
+    &_1{
+        width: 310px;
+        transition: width .2s ease;
+    }
+    &_2{
+        width: 56.6px;
+        transition: width .2s ease;
+    }
+    &_3{
+        width: 55.6px;
+        transition: width .2s ease;
+    }
+    &_4{
+        width: 321.7px;
+        transition: width .2s ease;
+    }
+    &_5{
+        width: 321.7px;
+        transition: width .2s ease;
+    }
+    &_6{
+        width: 56.6px;
+        transition: width .2s ease;
+    }
+    &_7{
+        width: 245px;
+        transition: width .2s ease;
+    }
+    &_8{
+        width: 318px;
+        transition: width .2s ease;
+    }
+    &_9{
+        width: 180px;
+        transition: width .2s ease;
+    }
+    &_10{
+        width: 157px;
+        transition: width .2s ease;
+    }
+    &_11{
+        width: 143px;
+        transition: width .2s ease;
+    }
+    &_12{
+        width: 50px;
+        transition: width .2s ease;
+    }
+    &_13{
+        width: 150px;
+        transition: width .2s ease;
+    }
+}

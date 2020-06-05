@@ -1,0 +1,9 @@
+.hero{
+    width: 100%;
+    height: 500px;
+    padding-top: 250px;
+    &__blue{
+        display: flex;
+        align-items: center;
+    }
+}

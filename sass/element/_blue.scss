@@ -1,0 +1,56 @@
+.blue{
+    display: flex;
+    flex-direction: column;
+    height: 290px;
+    width: 350px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+#blue_second{
+    align-self: flex-end;
+}
+
+.blue__item{
+    height: 55px;
+    width: 40px;
+    background-color: #3079ea;
+    border-radius: 30px;
+    transition: width .3s ease;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue__label{
+    opacity: 0;
+    transition: opacity 1s ease;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+    font-family: Lato;
+
+    font-size: 25px;
+}
+
+.blue__label_vis{
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+
+.blue_width{
+    width: 250px;
+    transition: width .3s ease;
+}
+
+.blue_width_2{
+    width: 160px;
+    transition: width .3s ease;
+}
+
+.blue_width_3{
+    width: 135px;
+    transition: width .3s ease;
+}
+
