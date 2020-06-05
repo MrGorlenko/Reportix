@@ -1,12 +1,16 @@
 .hero {
   width: 100%;
   height: 500px;
-  padding-top: 250px;
+  padding-top: 200px;
 }
 
 .hero__blue {
   display: flex;
   align-items: center;
+}
+
+.hero__row {
+  height: 400px;
 }
 
 .logo {
@@ -71,6 +75,7 @@
   height: 325.5px;
   margin: auto;
   position: relative;
+  top: 40px;
 }
 
 .logo__line {
