@@ -16,7 +16,7 @@
 .blue {
   display: flex;
   flex-direction: column;
-  height: 290px;
+  height: 100%;
   width: 350px;
   justify-content: space-between;
   margin: auto;
@@ -294,7 +294,7 @@
 
 .nav-link {
   color: black;
-  font-size: 11px;
+  font-size: 23px;
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -302,5 +302,18 @@
 
 .nav-link:hover {
   color: #589BFF;
+}
+
+.nav-item {
+  margin-right: 40px;
+}
+
+@media (max-width: 1200px) {
+  .nav-item {
+    margin-right: initial;
+  }
+  .nav-link {
+    font-size: 12px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
