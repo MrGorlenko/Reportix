@@ -10,3 +10,9 @@
         height: 400px;
     }
 }
+
+@media (max-width: 576px){
+    .hero{
+        padding-top: 95px;
+    }
+}

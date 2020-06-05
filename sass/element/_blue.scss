@@ -55,3 +55,28 @@
     transition: width .3s ease;
 }
 
+@media (max-width: 576px){
+
+    .blue{
+        height: 175px;
+
+    }
+
+    .blue__item{
+        height: 40px;
+    }
+
+    .blue__label{
+        font-size: 30px;
+    }
+
+    .blue_width{
+        width: 240px;
+        &_2{
+            width: 220px;
+        }
+        &_3{
+            width: 170px;
+        }
+    }
+}

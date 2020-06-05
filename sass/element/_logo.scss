@@ -220,3 +220,153 @@ $base-width: 305px;
         transition: width .2s ease;
     }
 }
+
+@media (max-width: 576px){
+    .logo{
+
+        &__block{
+            height: 265.5px;
+            width: 306px;
+            margin-top: 30px;
+        }
+
+        &__line{
+            height: 10px;
+            &_1{
+                // width: 275px;
+                width: 0;
+                left: 14.6px;
+                bottom: -5px;
+            }
+            &_2{
+                // width: 38px;
+                width: 0;
+                left: 275.8px;
+                bottom: 6.9px;
+                transform: rotate(-60deg);
+            }
+            &_3{
+                width: 0;
+                // width: 38px;
+                bottom: 6.6px;
+                transform: rotate(60deg);
+            }
+            &_4{
+                width: 0;
+                // width: 275px;
+                left: 98.5px;
+                bottom: 137px;
+            }
+            &_5{
+                width: 0;
+                // width: 275px;
+                left: -66px;
+                bottom: 136px;
+            }
+            &_6{
+                width: 0;
+                // width: 42px;
+                left: 134px;
+                top: 4px;
+            }
+            &_7{
+                width: 0;
+                left: -36px;
+                bottom: 93px;
+                // width: 232.3px;
+            }
+            &_8{
+                width: 0;
+                // width: 264px;
+                top: 118px;
+                left: 71px;
+            }
+            &_9{
+                width: 0;
+                // width: 152px;
+                bottom: 23px;
+                left: 150px;
+            }
+            &_10{
+                width: 0;
+                // width: 165px;
+                top: 131px;
+                left: 94px;
+            }
+            &_11{
+                width: 0;
+                // width: 162px;
+                top: 164px;
+                left: 35px;
+            }
+            &_12{
+                width: 0;
+                bottom: 24px;
+                left: 73px;
+                // width: 49px;
+            }
+            &_13{
+                width: 0;
+                // width: 162px;
+                bottom: 54px;
+                left: 91px;
+            }
+        }
+        &__label{
+            font-size: 30px;
+            &_investor{
+                left: 105px;
+                top: -40px;
+            }
+            &_founder{
+                bottom: -45px;
+                left: -20px;
+            }
+            &_team{
+                right: -20px;
+                bottom: -45px;
+            }
+        }
+    }
+    .line_active{
+        &_1{
+            width: 275px;
+        }
+        &_2{
+            width: 38px;
+        }
+        &_3{
+            width: 38px;
+        }
+        &_4{
+            width: 275px;
+        }
+        &_5{
+            width: 275px;
+        }
+        &_6{
+            width: 39px;
+        }
+        &_7{
+            width: 232.3px;
+        }
+        &_8{
+            width: 264px;
+        }
+        &_9{
+            width: 152px;
+        }
+        &_10{
+            width: 165px;
+        }
+        &_11{
+            width: 162px;
+        }
+        &_12{
+            width: 49px;
+        }
+        &_13{
+            width: 162px;
+        }
+    }
+}
