@@ -69,17 +69,17 @@
 
 .blue_width {
   width: 350px;
-  transition: width .3s ease;
+  transition: width .6s ease;
 }
 
 .blue_width_2 {
   width: 280px;
-  transition: width .3s ease;
+  transition: width .6s ease;
 }
 
 .blue_width_3 {
   width: 250px;
-  transition: width .3s ease;
+  transition: width .6s ease;
 }
 
 @media (max-width: 576px) {
@@ -336,73 +336,74 @@
     height: 10px;
   }
   .logo__line_1 {
-    width: 0;
+    width: 275px;
     left: 14.6px;
     bottom: -5px;
   }
   .logo__line_2 {
-    width: 0;
+    width: 38px;
     left: 275.8px;
     bottom: 6.9px;
     transform: rotate(-60deg);
   }
   .logo__line_3 {
-    width: 0;
+    width: 38px;
     bottom: 6.6px;
     transform: rotate(60deg);
   }
   .logo__line_4 {
-    width: 0;
+    width: 275px;
     left: 98.5px;
     bottom: 137px;
   }
   .logo__line_5 {
-    width: 0;
+    width: 275px;
     left: -66px;
     bottom: 136px;
   }
   .logo__line_6 {
-    width: 0;
+    width: 42px;
     left: 134px;
     top: 4px;
   }
   .logo__line_7 {
-    width: 0;
     left: -36px;
     bottom: 93px;
+    width: 232.3px;
   }
   .logo__line_8 {
-    width: 0;
+    width: 264px;
     top: 118px;
     left: 71px;
   }
   .logo__line_9 {
-    width: 0;
+    width: 152px;
     bottom: 23px;
     left: 150px;
   }
   .logo__line_10 {
-    width: 0;
+    width: 165px;
     top: 131px;
     left: 94px;
   }
   .logo__line_11 {
-    width: 0;
+    width: 162px;
     top: 164px;
     left: 35px;
   }
   .logo__line_12 {
-    width: 0;
     bottom: 24px;
     left: 73px;
+    width: 49px;
   }
   .logo__line_13 {
-    width: 0;
+    width: 162px;
     bottom: 54px;
     left: 91px;
   }
   .logo__label {
     font-size: 30px;
+    font-weight: 400;
   }
   .logo__label_investor {
     left: 105px;
@@ -415,45 +416,6 @@
   .logo__label_team {
     right: -20px;
     bottom: -45px;
-  }
-  .line_active_1 {
-    width: 275px;
-  }
-  .line_active_2 {
-    width: 38px;
-  }
-  .line_active_3 {
-    width: 38px;
-  }
-  .line_active_4 {
-    width: 275px;
-  }
-  .line_active_5 {
-    width: 275px;
-  }
-  .line_active_6 {
-    width: 39px;
-  }
-  .line_active_7 {
-    width: 232.3px;
-  }
-  .line_active_8 {
-    width: 264px;
-  }
-  .line_active_9 {
-    width: 152px;
-  }
-  .line_active_10 {
-    width: 165px;
-  }
-  .line_active_11 {
-    width: 162px;
-  }
-  .line_active_12 {
-    width: 49px;
-  }
-  .line_active_13 {
-    width: 162px;
   }
 }
 
