@@ -9,10 +9,26 @@
     &__row{
         height: 400px;
     }
+    &__labels{
+        position: relative;
+        // opacity: 0;
+    }
+    &__logo{
+        position: relative;
+        // top: -60%;
+    }
 }
 
 @media (max-width: 576px){
     .hero{
         padding-top: 95px;
+        &__labels{
+            opacity: 0;
+            transition: opacity .3s ease;
+        }
+        &__logo{
+            top: -60%;
+            transition: 1s ease-in-out;
+        }
     }
 }

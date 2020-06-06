@@ -19,9 +19,25 @@
   height: 400px;
 }
 
+.hero__labels {
+  position: relative;
+}
+
+.hero__logo {
+  position: relative;
+}
+
 @media (max-width: 576px) {
   .hero {
     padding-top: 95px;
+  }
+  .hero__labels {
+    opacity: 0;
+    transition: opacity .3s ease;
+  }
+  .hero__logo {
+    top: -60%;
+    transition: 1s ease-in-out;
   }
 }
 

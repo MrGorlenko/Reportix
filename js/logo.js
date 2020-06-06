@@ -40,33 +40,18 @@ $(document).ready(function(){
 	setTimeout(line_4, 600);
 	setTimeout(line_5, 800);
 
-	setTimeout(label_1, 900);
-	setTimeout(label_2, 900);
-	setTimeout(label_3, 900);
-	// $('.logo__label_investor').addClass('label_visible');
-	// $('.logo__label_founder').addClass('label_visible');
-	// $('.logo__label_team').addClass('label_visible');
+	// setTimeout(label_1, 900);
+	// setTimeout(label_2, 900);
+	// setTimeout(label_3, 900);
 
-
-
-	// logo__label_investor">Investor</span>
-    //         <span class="logo__label logo__label_founder">Founder</span>
-    //         <span class="logo__label logo__label_team">Team</
-
-
-    // var controller = new ScrollMagic.Controller();
-
-    // var ourScene = new ScrollMagic.Scene({
-	// 	triggerElement: '#logo'
-    // })
-    
-    // .setClassToggle('#project01', 'fade-in')
-    // .addIndicators({
-	// 	name: 'fade scene',
-	// 	colorTrigger: 'black',
-	// 	indent: 100,
-	// 	colorStart: '#75C695'
-	// }) // this requires a plugin
-	// .addTo(controller);
+	if ($(window).width()>576){
+		setTimeout(label_1, 900);
+		setTimeout(label_2, 900);
+		setTimeout(label_3, 900);
+	} else {
+		setTimeout(label_1, 300);
+		setTimeout(label_2, 300);
+		setTimeout(label_3, 300);
+	}
 
 })
