@@ -1,0 +1,22 @@
+.about{
+    height: 1175px;
+    background-color: #007bff;
+    padding: 150px 0;
+}
+
+@media (max-width: 1590px){
+    .about{
+        height: 720px;
+        padding: 85px 0;
+    }
+}
+
+@media (max-width:992px){
+    .about{
+        height: 1470px;
+    }
+}
+
+@media (max-width: 330px){
+    
+}

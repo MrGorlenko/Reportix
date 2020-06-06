@@ -1,0 +1,145 @@
+.puzzle{
+    height: 900px;
+    width: 1510px;
+    margin: auto;
+    display: flex;
+    &__left{
+        background: blue;
+        width: 600px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__mid{
+        background: green;
+        width: 310px;
+    }
+    &__right{
+        background: red;
+        width: 600px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__label{
+        color: white;
+        font-family: Lato;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    &_1{
+        width: 100%;
+        height: 300px;
+        background: #5ba9f7;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        img{
+            width: 40%;
+        }
+    }
+    &_2{
+        width: 50%;
+        height: 600px;
+        background: #1d5ec1;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        span{
+            font-size: 24px;
+            line-height: 28px;
+            width: 90%;
+        }
+        img{
+            width: 60%;
+        }
+    }
+    &_3{
+        width: 50%;
+        height: 600px;
+        background: #358cf6;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        span{
+            width: 90%;
+        }
+        img{
+            width: 90%;
+        }
+    }
+
+    &_5{
+        width: 50%;
+        height: 600px;
+        background: black;
+    }
+    &_6{
+        width: 50%;
+        height: 600px;
+        background: white;
+    }
+    &_7{
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media (max-width: 1590px){
+    .puzzle{
+        width: 100%;
+        height: 550px;
+        display: flex;
+        justify-content: center;
+        &__left{
+            width: 350px;
+        }
+        &__mid{
+            width: 175px;
+        }
+        &__right{
+            width: 350px;
+        }
+        &_1{
+            height: 200px;
+        }
+        &_2{
+            height: 350px;
+        }
+        &_3{
+            height: 350px;
+        }
+
+        &_5{
+            height: 350px;
+        }
+        &_6{
+            height: 350px;
+        }
+        &_7{
+            height: 200px;
+        }
+
+    }
+}
+
+@media (max-width: 992px){
+    .puzzle{
+        flex-wrap: wrap;
+        width: 350px;
+        &__mid{
+            width: 100%;
+            height: 200px;
+        }
+    }
+}
+
+@media (max-width: 349px){
+    .puzzle{
+        width: 315px;
+    }
+}
