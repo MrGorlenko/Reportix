@@ -91,7 +91,8 @@
 
         transition: background-color .3s ease-in-out;
         span{
-            width: 80%;
+            width: 60%;
+            margin-top: -75px;
         }
         img{
             width: 80%;
@@ -156,12 +157,14 @@
             margin-bottom: 0;
         }
         span{
-            width: 90%;
+            width: 80%;
+            margin-top: -45px;
         }
         &:hover{
             background-color: darken($color: #1d5fc3, $amount: 20);
             transition: background-color .3s ease-in-out;
         }
+
     }
     &_7{
         width: 100%;
@@ -233,6 +236,10 @@
         }
         &_3{
             height: 350px;
+            span{
+                margin-top: -50px;
+                width: 75%;
+            }
         }
         &_4{
             height: 400px;
@@ -243,6 +250,10 @@
         }
         &_6{
             height: 350px;
+            span{
+                margin-top: -20px;
+                width: 68%;
+            }
         }
         &_7{
             height: 200px;

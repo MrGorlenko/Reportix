@@ -617,7 +617,8 @@
 }
 
 .puzzle_3 span {
-  width: 80%;
+  width: 60%;
+  margin-top: -75px;
 }
 
 .puzzle_3 img {
@@ -683,7 +684,8 @@
 }
 
 .puzzle_6 span {
-  width: 90%;
+  width: 80%;
+  margin-top: -45px;
 }
 
 .puzzle_6:hover {
@@ -765,6 +767,10 @@
   .puzzle_3 {
     height: 350px;
   }
+  .puzzle_3 span {
+    margin-top: -50px;
+    width: 75%;
+  }
   .puzzle_4 {
     height: 400px;
   }
@@ -773,6 +779,10 @@
   }
   .puzzle_6 {
     height: 350px;
+  }
+  .puzzle_6 span {
+    margin-top: -20px;
+    width: 68%;
   }
   .puzzle_7 {
     height: 200px;
