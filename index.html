@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="libs/slick-theme.css">
+    <link rel="stylesheet" href="libs/slick.css">
 </head>
 <body class=body>
 
@@ -168,6 +170,54 @@
         </div>
     </section>
 
+    <section class="pricing">
+        <h2 class="pricing__title">Pricing</h2>
+
+        <div class="slider__global">
+            <img id='prev' src="img/prev.png" alt="">
+            <div class="slider">
+    
+                <div> 
+                <div class="slider__item">
+                    <span class=slider__cost>free</span>
+                <p class="slider__price"> <span class="slider__num">$0</span> <span class="slider__per">/month</span> </p>
+                <ul class=slider__list>
+                    <li class="slider__elem">Single Users</li>
+                    <li class="slider__elem">5GB Storage</li>
+                    <li class="slider__elem">Unlimited Public Project</li>
+                    <li class="slider__elem">Community Access</li>
+                    <li class="slider__elem">Unlimited Private Projects</li>
+                    <li class="slider__elem">Dedicated Phone Support</li>
+                    <li class="slider__elem">Free Subdomains</li>
+                    <li class="slider__elem">Monthly Status Reports</li>
+                </ul>
+                <button class="slider__button">Get</button>
+                </div>
+                </div>
+    
+                <div>
+              <div class="slider__item"> 
+                <span class=slider__cost>pro</span>
+                <p class="slider__price"> <span class="slider__num">$49</span> <span class="slider__per">/month</span> </p>
+                <ul class=slider__list>
+                    <li class="slider__elem">Unlimited Users</li>
+                    <li class="slider__elem">150GB Storage</li>
+                    <li class="slider__elem">Unlimited Public Project</li>
+                    <li class="slider__elem">Community Access</li>
+                    <li class="slider__elem">Unlimited Private Projects</li>
+                    <li class="slider__elem">Dedicated Phone Support</li>
+                    <li class="slider__elem">Unlimited Free Subdomains</li>
+                    <li class="slider__elem">Monthly Status Reports</li>
+                </ul>
+                <button class="slider__button">Get</button>
+              </div>
+                </div>
+            </div>
+            <img id='next' src="img/next.png" alt="">
+        </div>
+        </div>
+    </section>
+
 
     <div id='modal-1' class="modal">
         <div class="modal__block">
@@ -185,10 +235,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
     <script src='libs/jquery.js'></script>
+    <script src='libs/slick.min.js'></script>
     <script src='libs/bootstrap.min.js'></script>
     <script src='libs/bootstrap.bundle.min.js'></script>
     <script src='js/hero.js'></script>
     <script src='js/logo.js'></script>
     <script src='js/puzzle.js'></script>
+    <script src='js/slider.js'></script>
 </body>
 </html>
