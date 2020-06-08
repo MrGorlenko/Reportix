@@ -799,6 +799,7 @@
   .puzzle__mid {
     width: 100%;
     height: 200px;
+    display: flex;
   }
   .puzzle__middle-phone {
     display: none;
@@ -808,12 +809,19 @@
   }
   .puzzle_4 {
     flex-direction: row;
+    width: 50%;
+    height: 200px;
+    background-color: #5ba9f7;
   }
   .puzzle_4 span {
-    width: 32%;
+    width: 80%;
   }
   .puzzle_4 img {
     width: 45%;
+  }
+  .puzzle_8 {
+    width: 50%;
+    height: 200px;
   }
 }
 
