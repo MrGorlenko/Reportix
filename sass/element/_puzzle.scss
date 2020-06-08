@@ -4,20 +4,13 @@
     margin: auto;
     display: flex;
     &__left{
-        background: blue;
+        // background: blue;
         width: 600px;
         display: flex;
         flex-wrap: wrap;
     }
     &__mid{
-        background-color: #1d5fc3;
         width: 310px;
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-
         cursor: pointer;
 
         transition: background-color .3s ease-in-out;
@@ -25,13 +18,9 @@
             width: 65%;
         }
 
-        &:hover{
-            background-color: darken($color: #1d5fc3, $amount: 20);
-            transition: background-color .3s ease-in-out;
-        }
     }
     &__right{
-        background: red;
+        // background: red;
         width: 600px;
         display: flex;
         flex-wrap: wrap;
@@ -114,6 +103,19 @@
         }
     }
 
+    &_4{
+        background-color: #1d5fc3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 600px;
+        &:hover{
+            background-color: darken($color: #1d5fc3, $amount: 20);
+            transition: background-color .3s ease-in-out;
+        }
+    }
+
     &_5{
         width: 50%;
         height: 600px;
@@ -163,10 +165,9 @@
     }
     &_7{
         width: 100%;
-        height: 300px;
         background-color: #5ba9f7;
         transition: background-color .3s ease-in-out;
-
+        height: 300px;
         cursor: pointer;
 
         span{
@@ -180,6 +181,19 @@
         }
         &:hover{
             background-color: darken($color: #5ba9f7, $amount: 40);
+            transition: background-color .3s ease-in-out;
+        }
+    }
+
+    &_8{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #007bff;
+        transition: background-color .3s ease-in-out;
+        height: 300px;
+        &:hover{
+            background-color: darken($color: #007bff, $amount: 30);
             transition: background-color .3s ease-in-out;
         }
     }
@@ -220,6 +234,9 @@
         &_3{
             height: 350px;
         }
+        &_4{
+            height: 400px;
+        }
 
         &_5{
             height: 350px;
@@ -238,6 +255,9 @@
                 display: inline-block;
                 margin-left: 35px;
             }
+        }
+        &_8{
+            height: 150px;
         }
 
     }
