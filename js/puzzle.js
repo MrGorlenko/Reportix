@@ -4,7 +4,7 @@ $(document).ready(function(){
 
         $("#modal-1").css('display', 'flex');
         $("#modal-1").css('z-index', '1050');
-        $('.body').css('overflow', 'hidden');
+        // $('.body').css('overflow', 'hidden');
         var modalActive = function(){
             $('#modal-1').addClass('modal-active');
         }
@@ -15,7 +15,7 @@ $(document).ready(function(){
     $('.modal__close').on('click', function(){
 
         $('#modal-1').removeClass('modal-active');
-        $('.body').css('overflow', 'initial');
+        // $('.body').css('overflow', 'initial');
         var modalClose = function(){
             $("#modal-1").css('display', 'none');
             $("#modal-1").css('z-index', '-1');
