@@ -88,6 +88,9 @@
 
 @media (max-width: 1200px){
     .slider{
+        &__global{
+            width: 800px;
+        }
         &__item{
             height: 500px;
             width: 550px;
@@ -117,14 +120,14 @@
 
 @media (max-width: 993px){
     .slider{
-        width: 100%;
+        width: 520px;
         &__global{
-            width: 320px;
-            margin: initial;
+            width: 595px;
+            margin: auto;
         }
         &__item{
-            width: 300px;
-            margin: initial;
+            width: 500px;
+            margin: auto;
         }
         &__button{
             width: 80%;
@@ -135,7 +138,7 @@
     }
 }
 
-@media (max-width: 576px){
+@media (max-width: 610px){
     .slider{
         width: 320px;
         &__global{

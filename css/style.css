@@ -226,7 +226,7 @@
 
 .pricing {
   height: 980px;
-  background-image: url("../../img/pricing-bg1.png");
+  background: url("../../img/pricing-bg1.png");
   background-size: cover;
   padding: 75px 0 60px 0;
 }
@@ -235,6 +235,12 @@
   font-size: 43px;
   color: white;
   text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .pricing {
+    height: 815px;
+  }
 }
 
 .blue {
@@ -1219,6 +1225,9 @@
 }
 
 @media (max-width: 1200px) {
+  .slider__global {
+    width: 800px;
+  }
   .slider__item {
     height: 500px;
     width: 550px;
@@ -1247,15 +1256,15 @@
 
 @media (max-width: 993px) {
   .slider {
-    width: 100%;
+    width: 520px;
   }
   .slider__global {
-    width: 320px;
-    margin: initial;
+    width: 595px;
+    margin: auto;
   }
   .slider__item {
-    width: 300px;
-    margin: initial;
+    width: 500px;
+    margin: auto;
   }
   .slider__button {
     width: 80%;
@@ -1265,7 +1274,7 @@
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 610px) {
   .slider {
     width: 320px;
   }
