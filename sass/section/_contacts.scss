@@ -1,0 +1,43 @@
+.contacts{
+    padding: 50px 0;
+
+    background: -moz-linear-gradient(270deg, #007aff 20%, #015fc3 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #007aff), color-stop(100%, #015fc3)); /* safari4+,chrome */
+    background: -webkit-linear-gradient(270deg, #007aff 20%, #015fc3 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(270deg, #007aff 20%, #015fc3 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(270deg, #007aff 20%, #015fc3 100%); /* ie10+ */
+    background: linear-gradient(180deg, #007aff 20%, #015fc3 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007aff', endColorstr='#015fc3',GradientType=0 ); /* ie6-9 */
+
+    margin-top: -3px;
+    
+    &__left{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    &__right{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    &__img{
+        width: 370px;
+    }
+}
+
+@media (max-width: 992px){
+    .contacts{
+        &__left{
+            justify-content: center;
+        }
+    }
+}
+
+@media (max-width: 576px){
+    .contacts{
+        &__img{
+            width: 100%;
+        }
+    }
+}

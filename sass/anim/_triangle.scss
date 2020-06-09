@@ -53,7 +53,7 @@
     left:15%;
 }
 #pric-7{
-    left: 12%;
+    left: 19%;
     top: 28%;
     transform: rotate(45deg);
 }
@@ -63,4 +63,21 @@
     top: 10%;
     transform: rotate(-45deg);
     width: 9%;
+}
+
+@media (max-width: 576px){
+
+    #pric-2{
+        right: 81%;
+        bottom: 42%;
+    }
+
+    #pric-3{
+        bottom: 11%;
+    }
+
+    #pric-5{
+        top: 81%;
+        left: 63%;
+    }
 }
