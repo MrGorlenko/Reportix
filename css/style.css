@@ -1328,6 +1328,12 @@
   border-radius: 35px;
   outline: none;
   border: none;
+  transition: background-color .3s ease;
+}
+
+.slider__button:hover {
+  background-color: #ca182a;
+  transition: background-color .3s ease;
 }
 
 #prev {
@@ -1437,14 +1443,25 @@
   color: white;
   padding-left: 25px;
   font-size: 25px;
+  transition: background-color .3s ease;
 }
 
 .form__input_1 {
   background-color: #79aaf3;
 }
 
+.form__input_1:hover {
+  background-color: #a8c8f7;
+  transition: background-color .3s ease;
+}
+
 .form__input_2 {
   background-color: #0e49af;
+}
+
+.form__input_2:hover {
+  background-color: #0a3580;
+  transition: background-color .3s ease;
 }
 
 .form__input::placeholder {
@@ -1476,6 +1493,12 @@
   color: white;
   border-radius: 35px;
   border: none;
+  transition: background-color .3s ease;
+}
+
+.form__button:hover {
+  background-color: #ca182a;
+  transition: background-color .3s ease;
 }
 
 @media (max-width: 1200px) {
