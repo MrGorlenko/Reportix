@@ -292,12 +292,21 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#59a9ff', endColorstr='#007aff',GradientType=0 );
   /* ie6-9 */
   padding: 75px 0 60px 0;
+  overflow: hidden;
+  position: relative;
+  margin-top: -2px;
 }
 
 .pricing__title {
   font-size: 43px;
   color: white;
   text-align: center;
+  z-index: 2;
+}
+
+.pricing__triangle {
+  position: absolute;
+  z-index: 0;
 }
 
 @media (max-width: 1200px) {
@@ -1375,5 +1384,54 @@
   top: -100%;
   transform: rotate(180deg);
   transition: 10s ease;
+}
+
+#pric-1 {
+  top: 10%;
+  left: 8%;
+  width: 10%;
+}
+
+#pric-2 {
+  right: 24%;
+  bottom: 0%;
+  width: 30%;
+}
+
+#pric-3 {
+  bottom: 3%;
+  left: 4%;
+  width: 12%;
+}
+
+#pric-4 {
+  right: 10%;
+  top: 12%;
+  width: 13%;
+}
+
+#pric-5 {
+  top: 60%;
+  left: 77%;
+  transform: rotate(45deg);
+  width: 15%;
+}
+
+#pric-6 {
+  bottom: 0;
+  left: 15%;
+}
+
+#pric-7 {
+  left: 12%;
+  top: 28%;
+  transform: rotate(45deg);
+}
+
+#pric-8 {
+  right: 36%;
+  top: 10%;
+  transform: rotate(-45deg);
+  width: 9%;
 }
 /*# sourceMappingURL=style.css.map */
