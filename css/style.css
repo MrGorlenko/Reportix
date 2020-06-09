@@ -363,6 +363,41 @@
   }
 }
 
+.download {
+  /* ff3.6+ */
+  /* safari4+,chrome */
+  /* safari5.1+,chrome10+ */
+  /* opera 11.10+ */
+  /* ie10+ */
+  background: linear-gradient(180deg, #015fc3 0%, #007aff 84%, #007aff 100%);
+  /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#015fc3', endColorstr='#007aff',GradientType=0 );
+  /* ie6-9 */
+  margin-top: -3px;
+}
+
+.download__pic {
+  width: 650px;
+}
+
+@media (max-width: 1560px) {
+  .download__pic {
+    width: 500px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .download__pic {
+    width: 100%;
+  }
+}
+
+@media (max-width: 993px) {
+  .download__pic {
+    display: none;
+  }
+}
+
 .blue {
   display: flex;
   flex-direction: column;
@@ -1510,6 +1545,88 @@
 @media (max-width: 992px) {
   .form {
     align-items: center;
+  }
+}
+
+.buy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.buy__title {
+  font-size: 45px;
+  color: white;
+  margin-bottom: 80px;
+}
+
+.buy__paragraph {
+  font-size: 25px;
+  color: white;
+  width: 85%;
+  margin-bottom: 70px;
+}
+
+.buy img {
+  width: 250px;
+  margin-bottom: 13px;
+}
+
+.buy__title, .buy__paragraph, .buy img {
+  margin-left: 20%;
+}
+
+@media (max-width: 1560px) {
+  .buy__title {
+    margin-bottom: 50px;
+  }
+  .buy__paragraph {
+    font-size: 23px;
+    line-height: 26px;
+    color: white;
+    width: 615px;
+    margin-bottom: 50px;
+  }
+  .buy img {
+    width: 200px;
+  }
+  .buy__title, .buy__paragraph, .buy img {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .buy__title {
+    margin-bottom: 30px;
+    font-size: 38px;
+  }
+  .buy__paragraph {
+    width: 560px;
+    font-size: 20px;
+    line-height: 23px;
+  }
+  .buy img {
+    width: 150px;
+  }
+}
+
+@media (max-width: 992px) {
+  .buy {
+    align-items: center;
+  }
+  .buy__title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 38px;
+  }
+  .buy__paragraph {
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    line-height: 23px;
+  }
+  .buy img {
+    width: 150px;
   }
 }
 
