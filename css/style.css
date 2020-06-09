@@ -80,7 +80,7 @@
   padding: 150px 0;
 }
 
-@media (max-width: 1590px) {
+@media (max-width: 1690px) {
   .about {
     height: 720px;
     padding: 85px 0;
@@ -105,6 +105,7 @@
   left: -20%;
   width: 570px;
   z-index: 0;
+  transition: 3s ease;
 }
 
 .unlimited__phone {
@@ -167,6 +168,36 @@
   justify-content: center;
 }
 
+@media (max-width: 1690px) {
+  .unlimited__container {
+    max-width: 950px !important;
+  }
+  .unlimited__phone {
+    width: 290px;
+    height: 610px;
+  }
+  .unlimited__title {
+    font-size: 32px;
+  }
+  .unlimited__bg {
+    width: 500px;
+    left: -30%;
+  }
+  .unlimited__item {
+    height: 255px;
+    width: 48%;
+  }
+  .unlimited__item img {
+    width: 100px;
+  }
+  .unlimited__pic {
+    height: 610px;
+  }
+  .unlimited__content {
+    height: 610px;
+  }
+}
+
 @media (max-width: 1540px) {
   .unlimited__phone {
     width: 290px;
@@ -226,8 +257,7 @@
 
 .pricing {
   height: 980px;
-  background: url("../../img/pricing-bg1.png");
-  background-size: cover;
+  background-color: #59a8f7;
   padding: 75px 0 60px 0;
 }
 
@@ -888,7 +918,7 @@
   width: 65%;
 }
 
-@media (max-width: 1590px) {
+@media (max-width: 1690px) {
   .puzzle {
     width: 100%;
     height: 550px;
@@ -1290,5 +1320,27 @@
   #next {
     display: none;
   }
+}
+
+.triangle__first {
+  left: 38%;
+  transition: 5s ease;
+  top: -90%;
+  transform: rotate(60deg);
+  transition: 10s ease;
+}
+
+.triangle__second {
+  left: 120%;
+  top: -120%;
+  transform: rotate(120deg);
+  transition: 10s ease;
+}
+
+.triangle__third {
+  left: -20%;
+  top: -100%;
+  transform: rotate(180deg);
+  transition: 10s ease;
 }
 /*# sourceMappingURL=style.css.map */

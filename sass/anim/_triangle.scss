@@ -1,0 +1,21 @@
+.triangle__first{
+    left: 38%;
+    transition: 5s ease;
+    top: -90%;
+    transform: rotate(60deg);
+    transition: 10s ease;
+}
+
+.triangle__second{
+    left: 120%;
+    top: -120%;
+    transform: rotate(120deg);
+    transition: 10s ease;
+}
+
+.triangle__third{
+    left: -20%;
+    top: -100%;
+    transform: rotate(180deg);
+    transition:  10s ease;
+}

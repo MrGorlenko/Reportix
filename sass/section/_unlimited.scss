@@ -10,6 +10,8 @@
         width: 570px;
 
         z-index: 0;
+
+        transition: 3s ease;
     }
 
     &__phone{
@@ -64,6 +66,40 @@
     }
     &__row{
         justify-content: center;
+    }
+}
+
+@media (max-width: 1690px){
+    .unlimited{
+        &__container{
+            max-width: 950px !important;
+        }
+        &__phone{
+            width: 290px;
+            height: 610px;
+        }
+        &__title{
+            font-size: 32px;
+        }
+
+        &__bg{
+            width: 500px;
+            left: -30%;
+        }
+
+        &__item{
+            height: 255px;
+            width: 48%;
+            img{
+                width: 100px;
+            }
+        }
+        &__pic{
+            height: 610px;
+        }
+        &__content{
+            height: 610px;
+        }
     }
 }
 
