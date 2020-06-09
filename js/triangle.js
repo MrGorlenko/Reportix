@@ -3,15 +3,21 @@ $(document).ready(function(){
     anime({
         targets: '.unlimited__bg',
         keyframes:[
-            {translateX: 250,},
-            {translateY: -150},
-            {translateX: 300},
-            {translateY: -20},
-            {translateX: -520},
-            {translateY: 170}
+            {translateX: 80,
+            translateY: -80},
+            // {width: 300},
+            {translateX: -80},
+            {translateY: 80},
+            // {width: 400},
+            {translateX: 80,
+            translateY: 80},
+            {translateX: -80,
+            translateY: -80},
+            // {width: 500}
+
         ],
         loop: true,
-        duration: 10000,
+        duration: 5000,
         direction: 'alternate',
         easing: 'linear',
       });
