@@ -22,4 +22,22 @@ $(document).ready(function(){
         }
     })
 
+    $(".menu").on("click","a", function (event) {
+		event.preventDefault();
+
+		var id  = $(this).attr('href'),
+
+			top = $(id).offset().top;
+		
+        $('body,html').animate({scrollTop: top}, 1500);
+        
+        i = 0;
+        $('.up').removeClass('up_active');
+        $('.down').removeClass('down_active');
+        $('.burger').css('height', '15px');
+
+        $('.menu').css('opacity', '0');
+        $('.menu').css('z-index', '-1')
+	});
+
 })
