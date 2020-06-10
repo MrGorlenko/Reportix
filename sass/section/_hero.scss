@@ -57,6 +57,7 @@
         &__labels{
             opacity: 0;
             transition: opacity .3s ease;
+            overflow: hidden;
         }
         &__logo{
             top: -50%;
