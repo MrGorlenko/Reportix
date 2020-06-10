@@ -5,15 +5,12 @@ $(document).ready(function(){
         keyframes:[
             {translateX: 80,
             translateY: -80},
-            // {width: 300},
             {translateX: -80},
             {translateY: 80},
-            // {width: 400},
             {translateX: 80,
             translateY: 80},
             {translateX: -80,
-            translateY: -80},
-            // {width: 500}
+            translateY: -80}
 
         ],
         loop: true,

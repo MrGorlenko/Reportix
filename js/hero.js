@@ -1,8 +1,13 @@
 $(document).ready(function(){
 
+
     var blueFirst = function(){
         $('#blue_first').addClass('blue_width');
         $('#blue_label_first').addClass('blue__label_vis');
+    }
+    var blueFirstBack = function(){
+        $('#blue_first').removeClass('blue_width');
+        $('#blue_label_first').removeClass('blue__label_vis');
     }
     var blueSecond = function(){
         $('#blue_second').addClass('blue_width_2');
@@ -22,12 +27,27 @@ $(document).ready(function(){
     }
 
         if ($(window).width()>576){
-        
-            setTimeout(blueFirst, 0);
-            setTimeout(blueSecond, 300);
-            setTimeout(blueSecondLabel, 500);
-            setTimeout(blueThird, 600);
-            setTimeout(blueThirdLabel, 800);
+
+
+
+
+
+            // setTimeout(blueFirst, 0);
+            // setTimeout(blueFirstBack, 1200);
+            // setTimeout(blueSecond, 300);
+            // setTimeout(blueSecondLabel, 500);
+            // setTimeout(blueThird, 600);
+            // setTimeout(blueThirdLabel, 800);
+
+            anime({
+                targets: '#blue_first',
+                width: ['40','350'], // -> from '28px' to '100%',
+                easing: 'easeInOutQuad',
+                direction: 'alternate',
+                loop: true,
+                // duration: 1000
+              });
+
 
         }
         else{
