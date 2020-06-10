@@ -28,26 +28,11 @@ $(document).ready(function(){
 
         if ($(window).width()>576){
 
-
-
-
-
-            // setTimeout(blueFirst, 0);
-            // setTimeout(blueFirstBack, 1200);
-            // setTimeout(blueSecond, 300);
-            // setTimeout(blueSecondLabel, 500);
-            // setTimeout(blueThird, 600);
-            // setTimeout(blueThirdLabel, 800);
-
-            anime({
-                targets: '#blue_first',
-                width: ['40','350'], // -> from '28px' to '100%',
-                easing: 'easeInOutQuad',
-                direction: 'alternate',
-                loop: true,
-                // duration: 1000
-              });
-
+            setTimeout(blueFirst, 0);
+            setTimeout(blueSecond, 300);
+            setTimeout(blueSecondLabel, 500);
+            setTimeout(blueThird, 600);
+            setTimeout(blueThirdLabel, 800);
 
         }
         else{
