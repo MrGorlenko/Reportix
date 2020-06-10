@@ -95,6 +95,7 @@
   /* w3c */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007aff', endColorstr='#015fc3',GradientType=0 );
   /* ie6-9 */
+  margin-top: -1px;
 }
 
 @media (max-width: 1690px) {
@@ -288,7 +289,7 @@
   /* safari5.1+,chrome10+ */
   /* opera 11.10+ */
   /* ie10+ */
-  background: linear-gradient(180deg, #59a9ff 0%, #007aff 85%);
+  background: linear-gradient(180deg, #59a9ff 0%, #007aff 100%);
   /* w3c */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#59a9ff', endColorstr='#007aff',GradientType=0 );
   /* ie6-9 */
@@ -395,6 +396,86 @@
 @media (max-width: 993px) {
   .download__pic {
     display: none;
+  }
+}
+
+.footer {
+  margin-top: -3px;
+  padding-bottom: 60px;
+  /* ff3.6+ */
+  /* safari4+,chrome */
+  /* safari5.1+,chrome10+ */
+  /* opera 11.10+ */
+  /* ie10+ */
+  background: linear-gradient(180deg, #007aff 0%, #007aff 21%, #59a9ff 100%);
+  /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007aff', endColorstr='#59a9ff',GradientType=0 );
+  /* ie6-9 */
+}
+
+.footer__link_1 {
+  display: block;
+}
+
+.footer__link_2 {
+  width: 22%;
+}
+
+.footer__link_2 img {
+  width: 100%;
+}
+
+.footer__icons {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 5px;
+}
+
+.footer__right_2 {
+  position: relative;
+}
+
+.footer__rights {
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  left: 25px;
+}
+
+.footer__logo {
+  width: 160px;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer span {
+  color: white;
+}
+
+.footer p {
+  color: white;
+  font-weight: bold;
+}
+
+@media (max-width: 993px) {
+  .footer__right {
+    width: 300px;
+  }
+}
+
+@media (max-width: 993px) {
+  .footer__container {
+    width: 100% !important;
+  }
+  .footer__left {
+    height: 100px;
+    margin-top: 50px;
+  }
+  .footer__25 {
+    padding-left: 25px !important;
   }
 }
 
@@ -1701,6 +1782,38 @@
   width: 9%;
 }
 
+#pric-9 {
+  width: 7%;
+  transform: rotate(-42deg);
+  margin-top: 3%;
+  left: 6%;
+}
+
+#pric-10 {
+  width: 25%;
+  transform: rotate(82deg);
+  margin-top: 7%;
+  left: -18%;
+}
+
+#pric-11 {
+  right: 27%;
+  margin-top: -1%;
+  width: 13%;
+  transform: rotate(35deg);
+}
+
+#pric-12 {
+  right: 18%;
+  margin-top: 14%;
+  transform: rotate(30deg);
+}
+
+#pric-13 {
+  right: 9%;
+  width: 14%;
+}
+
 @media (max-width: 576px) {
   #pric-2 {
     right: 81%;
@@ -1712,6 +1825,9 @@
   #pric-5 {
     top: 81%;
     left: 63%;
+  }
+  #pric-13 {
+    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */

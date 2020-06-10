@@ -98,5 +98,60 @@ $(document).ready(function(){
         direction: 'alternate',
         easing: 'linear'
     });
+
+    anime({
+      targets: '#pric-9',
+      keyframes: [
+        {translateY: 20, translateX: 40, rotate: 15}
+      ],
+      loop: true,
+      duration: 4500,
+      direction: 'alternate',
+      easing: 'linear'
+    });
+
+  anime({
+      targets: '#pric-10',
+      keyframes: [
+        {translateY: 15, translateX: 10, rotate: 25}
+      ],
+      loop: true,
+      duration: 5000,
+      direction: 'alternate',
+      easing: 'linear'
+    });
+
+    anime({
+      targets: '#pric-11',
+      keyframes: [
+        {translateY: 10, translateX: 15, rotate: 45}
+      ],
+      loop: true,
+      duration: 5000,
+      direction: 'alternate',
+      easing: 'linear'
+    });
+
+    anime({
+      targets: '#pric-12',
+      keyframes: [
+        {translateY: 20, translateX: 5}
+      ],
+      loop: true,
+      duration: 3000,
+      direction: 'alternate',
+      easing: 'linear'
+    });
+
+    anime({
+      targets: '#pric-13',
+      keyframes: [
+        {translateY: 23, translateX: 10}
+      ],
+      loop: true,
+      duration: 4000,
+      direction: 'alternate',
+      easing: 'linear'
+    });
     
 })

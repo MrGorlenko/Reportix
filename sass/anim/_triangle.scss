@@ -65,6 +65,38 @@
     width: 9%;
 }
 
+#pric-9{
+    width: 7%;
+    transform: rotate(-42deg);
+    margin-top: 3%;
+    left: 6%;
+}
+
+#pric-10{
+    width: 25%;
+    transform: rotate(82deg);
+    margin-top: 7%;
+    left: -18%;
+}
+
+#pric-11{
+    right: 27%;
+    margin-top: -1%;
+    width: 13%;
+    transform: rotate(35deg);
+}
+
+#pric-12{
+    right: 18%;
+    margin-top: 14%;
+    transform: rotate(30deg);
+}
+
+#pric-13{
+    right: 9%;
+    width: 14%;
+}
+
 @media (max-width: 576px){
 
     #pric-2{
@@ -79,5 +111,9 @@
     #pric-5{
         top: 81%;
         left: 63%;
+    }
+
+    #pric-13{
+        display: none;
     }
 }
