@@ -1,0 +1,366 @@
+.puzzle{
+    height: 900px;
+    width: 1510px;
+    margin: auto;
+    display: flex;
+    &__left{
+        // background: blue;
+        width: 600px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__mid{
+        width: 310px;
+        cursor: pointer;
+
+        transition: background-color .3s ease-in-out;
+        span{
+            width: 65%;
+        }
+
+    }
+    &__right{
+        // background: red;
+        width: 600px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__label{
+        color: white;
+        font-family: Lato;
+        font-size: 32px;
+        line-height: 34px;
+    }
+    &_1{
+        width: 100%;
+        height: 300px;
+        background-color: #5ba9f7;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 65px 0 40px;
+
+        cursor: pointer;
+
+        transition: background-color .3s ease-in-out;
+
+        img{
+            width: 40%;
+        }
+
+        &:hover{
+            background-color: darken($color: #5ba9f7, $amount: 40);
+            transition: background-color .3s ease-in-out;
+        }
+    }
+    &_2{
+        width: 50%;
+        height: 600px;
+        background-color: #1d5ec1;
+
+        cursor: pointer;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        transition: background-color .3s ease-in-out;
+        span{
+            width: 75%;
+        }
+        img{
+            width: 60%;
+        }
+        &:hover{
+            background-color: darken($color: #1d5ec1, $amount: 20);
+            transition: background-color .3s ease-in-out;
+        }
+    }
+    &_3{
+        width: 50%;
+        height: 600px;
+        background-color: #358cf6;
+
+        cursor: pointer;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        transition: background-color .3s ease-in-out;
+        span{
+            width: 75%; 
+            margin-top: -75px;
+        }
+        img{
+            width: 80%;
+        }
+
+        &:hover{
+            background-color: darken($color: #358cf6, $amount: 40);
+            transition: background-color .3s ease-in-out;
+        }
+    }
+
+    &_4{
+        background-color: #1d5fc3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 600px;
+        &:hover{
+            background-color: darken($color: #1d5fc3, $amount: 20);
+            transition: background-color .3s ease-in-out;
+        }
+    }
+
+    &_5{
+        width: 50%;
+        height: 600px;
+        background-color: #358cf6;
+
+        cursor: pointer;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        transition: background-color .3s ease-in-out;
+        img{
+            width: 90%;
+        }
+        &:hover{
+            background-color: darken($color: #358cf6, $amount: 40);
+            transition: background-color .3s ease-in-out;
+        }
+    }
+    &_6{
+        width: 50%;
+        height: 600px;
+        background-color: #1d5fc3;
+
+        cursor: pointer;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        transition: background-color .3s ease-in-out;
+        img{
+            width: 90%;
+            margin: auto;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        span{
+            width: 80%;
+            margin-top: -40px;
+        }
+        &:hover{
+            background-color: darken($color: #1d5fc3, $amount: 20);
+            transition: background-color .3s ease-in-out;
+        }
+
+    }
+    &_7{
+        width: 100%;
+        background-color: #5ba9f7;
+        transition: background-color .3s ease-in-out;
+        height: 300px;
+        cursor: pointer;
+
+        span{
+            width: 30%;
+            display: inline-block;
+            margin-left: 45px;
+            padding-top: 90px;
+        }
+        img{
+            width: 45%;
+            margin-left: 30px;
+            margin-top: -100px;
+        }
+        &:hover{
+            background-color: darken($color: #5ba9f7, $amount: 40);
+            transition: background-color .3s ease-in-out;
+        }
+    }
+
+    &_8{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #007bff;
+        transition: background-color .3s ease-in-out;
+        height: 300px;
+        &:hover{
+            background-color: darken($color: #007bff, $amount: 30);
+            transition: background-color .3s ease-in-out;
+        }
+    }
+
+    &__middle-phone{
+        width: 65%;
+    }
+}
+
+@media (max-width: 1690px){
+    .puzzle{
+        width: 100%;
+        height: 550px;
+        display: flex;
+        justify-content: center;
+        &__left{
+            // width: 350px;
+            width: 380px;
+        }
+        &__mid{
+            // width: 175px;
+            width: 190px;
+        }
+        &__middle-analytics{
+            width: 85%
+        }
+        &__right{
+            // width: 350px;
+            width: 380px;
+        }
+        &__label{
+            font-size: 21px;
+            line-height: 25px;
+        }
+        &_1{
+            height: 200px;
+        }
+        &_2{
+            height: 350px;
+        }
+        &_3{
+            height: 350px;
+            span{
+                margin-top: -50px;
+                width: 75%;
+            }
+        }
+        &_4{
+            height: 400px;
+        }
+
+        &_5{
+            height: 350px;
+        }
+        &_6{
+            height: 350px;
+            span{
+                margin-top: -20px;
+                width: 68%;
+            }
+        }
+        &_7{
+            height: 200px;
+            img{
+                width: 48%;
+                margin-left: 7px;
+                margin-top: -68px;
+            }
+            span{
+                width: 37%;
+                display: inline-block;
+                margin-left: 35px;
+                padding-top: 50px;
+            }
+        }
+        &_8{
+            height: 150px;
+        }
+
+    }
+}
+
+@media (max-width: 992px){
+    .puzzle{
+        flex-wrap: wrap;
+        width: 350px;
+        &__left{
+            width: 350px;
+        }
+
+        &__mid{
+            width: 100%;
+            height: 200px;
+            display: flex;
+        }
+        &__right{
+            width: 350px;
+        }
+        &__middle-phone{
+            display: none;
+        }
+        &__middle-analytics{
+            width: 60%;
+        }
+
+        &_1{
+            padding: 0px 25px 0 20px;
+        }
+
+        &_2{
+            span{
+                text-align: end;
+            }
+        }
+
+        &_4{
+            flex-direction: row;
+            width: 50%;
+            height: 200px;
+            background-color: #5ba9f7;
+            span{
+                width: 80%;
+                text-align: end;
+            }
+            img{
+                width: 45%;
+            }
+        }
+        &_6{
+            img{
+                width: 70%;
+            }
+            span{
+                width: 75%;
+            }
+        }
+        &_7{
+            span{
+                margin-left: 20px;
+            }
+        }
+        &_8{
+            width: 50%;
+            height: 200px;
+        }
+    }
+}
+
+@media (max-width: 349px){
+    .puzzle{
+        width: 315px;
+
+        &_2{
+            span{
+                width: 90%;
+            }
+        }
+        &_7{
+            img{
+                margin-top: -85px;
+            }
+        }
+    }
+}

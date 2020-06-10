@@ -1,5 +1,5 @@
 .about{
-    height: 1175px;
+    height: 1310px;
     // background-color: #007bff;
     padding: 150px 0;
     background: -moz-linear-gradient(270deg, #007aff 0%, #007aff 41%, #015fc3 100%); /* ff3.6+ */
@@ -15,17 +15,31 @@
 
 @media (max-width: 1690px){
     .about{
-        height: 720px;
+        height: 880px;
         padding: 85px 0;
+        &__container{
+            max-width: 950px !important;
+        }
     }
 }
+
+
 
 @media (max-width:992px){
     .about{
-        height: 1470px;
+        height: 1310px;
+        &__container{
+            max-width: 340px !important;
+        }
     }
 }
 
-@media (max-width: 330px){
-    
+@media (max-width: 350px){
+    .about{
+        &__container{
+            width: 320px;
+            display: flex;
+            justify-content: center;
+        }
+    }
 }

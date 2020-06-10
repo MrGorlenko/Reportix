@@ -84,7 +84,7 @@
 }
 
 .about {
-  height: 1175px;
+  height: 1310px;
   padding: 150px 0;
   /* ff3.6+ */
   /* safari4+,chrome */
@@ -100,14 +100,28 @@
 
 @media (max-width: 1690px) {
   .about {
-    height: 720px;
+    height: 880px;
     padding: 85px 0;
+  }
+  .about__container {
+    max-width: 950px !important;
   }
 }
 
 @media (max-width: 992px) {
   .about {
-    height: 1470px;
+    height: 1310px;
+  }
+  .about__container {
+    max-width: 340px !important;
+  }
+}
+
+@media (max-width: 350px) {
+  .about__container {
+    width: 320px;
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -909,354 +923,150 @@
   }
 }
 
-.puzzle {
-  height: 900px;
-  width: 1510px;
-  margin: auto;
-  display: flex;
-}
-
-.puzzle__left {
-  width: 600px;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.puzzle__mid {
-  width: 310px;
-  cursor: pointer;
-  transition: background-color .3s ease-in-out;
-}
-
-.puzzle__mid span {
-  width: 65%;
-}
-
-.puzzle__right {
-  width: 600px;
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .puzzle__label {
+  font-size: 35px;
+  line-height: 37px;
   color: white;
   font-family: Lato;
-  font-size: 32px;
-  line-height: 34px;
+  text-align: center;
 }
 
-.puzzle_1 {
-  width: 100%;
-  height: 300px;
-  background-color: #5ba9f7;
+.puzzle__label_1 {
+  margin-bottom: 20px;
+}
+
+.puzzle__label_4_1 {
+  margin-top: 65px;
+}
+
+.puzzle__label_4_2 {
+  margin-bottom: 30px;
+}
+
+.puzzle__top_1 {
+  height: 405px;
+  background-color: #74b7f8;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 65px 0 40px;
-  cursor: pointer;
-  transition: background-color .3s ease-in-out;
-}
-
-.puzzle_1 img {
-  width: 40%;
-}
-
-.puzzle_1:hover {
-  background-color: #064380;
-  transition: background-color .3s ease-in-out;
-}
-
-.puzzle_2 {
-  width: 50%;
-  height: 600px;
-  background-color: #1d5ec1;
-  cursor: pointer;
-  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  transition: background-color .3s ease-in-out;
+  justify-content: center;
 }
 
-.puzzle_2 span {
-  width: 75%;
-}
-
-.puzzle_2 img {
-  width: 60%;
-}
-
-.puzzle_2:hover {
-  background-color: #103368;
-  transition: background-color .3s ease-in-out;
-}
-
-.puzzle_3 {
-  width: 50%;
+.puzzle__top_2 {
   height: 600px;
-  background-color: #358cf6;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  transition: background-color .3s ease-in-out;
+  background-color: #429cf6;
 }
 
-.puzzle_3 span {
-  width: 75%;
-  margin-top: -75px;
-}
-
-.puzzle_3 img {
+.puzzle__top_2 img {
   width: 80%;
+  margin: auto;
+  display: block;
 }
 
-.puzzle_3:hover {
-  background-color: #042b5b;
-  transition: background-color .3s ease-in-out;
-}
-
-.puzzle_4 {
-  background-color: #1d5fc3;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  height: 600px;
-}
-
-.puzzle_4:hover {
-  background-color: #10346a;
-  transition: background-color .3s ease-in-out;
-}
-
-.puzzle_5 {
-  width: 50%;
-  height: 600px;
-  background-color: #358cf6;
-  cursor: pointer;
+.puzzle__bottom_1 {
+  height: 605px;
+  background-color: #1852a8;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: background-color .3s ease-in-out;
-}
-
-.puzzle_5 img {
-  width: 90%;
-}
-
-.puzzle_5:hover {
-  background-color: #042b5b;
-  transition: background-color .3s ease-in-out;
-}
-
-.puzzle_6 {
-  width: 50%;
-  height: 600px;
-  background-color: #1d5fc3;
-  cursor: pointer;
-  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  transition: background-color .3s ease-in-out;
+  padding-top: 10px;
 }
 
-.puzzle_6 img {
-  width: 90%;
+.puzzle__bottom_1_1 img {
+  width: 55%;
+  display: block;
   margin: auto;
-  margin-top: 0;
+}
+
+.puzzle__bottom_1_2 img {
+  width: 94%;
+  display: block;
+  margin: auto;
   margin-bottom: 0;
 }
 
-.puzzle_6 span {
-  width: 80%;
-  margin-top: -40px;
-}
-
-.puzzle_6:hover {
-  background-color: #10346a;
-  transition: background-color .3s ease-in-out;
-}
-
-.puzzle_7 {
-  width: 100%;
-  background-color: #5ba9f7;
-  transition: background-color .3s ease-in-out;
-  height: 300px;
-  cursor: pointer;
-}
-
-.puzzle_7 span {
-  width: 30%;
-  display: inline-block;
-  margin-left: 45px;
-  padding-top: 90px;
-}
-
-.puzzle_7 img {
-  width: 45%;
-  margin-left: 30px;
-  margin-top: -100px;
-}
-
-.puzzle_7:hover {
-  background-color: #064380;
-  transition: background-color .3s ease-in-out;
-}
-
-.puzzle_8 {
+.puzzle__bottom_2 {
+  height: 410px;
+  background-color: #74b7f8;
   display: flex;
-  justify-content: center;
   align-items: center;
-  background-color: #007bff;
-  transition: background-color .3s ease-in-out;
-  height: 300px;
-}
-
-.puzzle_8:hover {
-  background-color: #003166;
-  transition: background-color .3s ease-in-out;
-}
-
-.puzzle__middle-phone {
-  width: 65%;
+  flex-direction: column;
+  justify-content: center;
 }
 
 @media (max-width: 1690px) {
-  .puzzle {
-    width: 100%;
-    height: 550px;
-    display: flex;
-    justify-content: center;
-  }
-  .puzzle__left {
-    width: 380px;
-  }
-  .puzzle__mid {
-    width: 190px;
-  }
-  .puzzle__middle-analytics {
-    width: 85%;
-  }
-  .puzzle__right {
-    width: 380px;
-  }
   .puzzle__label {
-    font-size: 21px;
-    line-height: 25px;
+    font-size: 25px;
+    line-height: 28px;
   }
-  .puzzle_1 {
-    height: 200px;
+  .puzzle__top_1 {
+    height: 255px;
   }
-  .puzzle_2 {
-    height: 350px;
-  }
-  .puzzle_3 {
-    height: 350px;
-  }
-  .puzzle_3 span {
-    margin-top: -50px;
+  .puzzle__top_1 img {
     width: 75%;
   }
-  .puzzle_4 {
-    height: 400px;
+  .puzzle__top_2 {
+    height: 450px;
   }
-  .puzzle_5 {
-    height: 350px;
+  .puzzle__bottom_1 {
+    height: 455px;
   }
-  .puzzle_6 {
-    height: 350px;
+  .puzzle__bottom_2 {
+    height: 260px;
   }
-  .puzzle_6 span {
-    margin-top: -20px;
-    width: 68%;
-  }
-  .puzzle_7 {
-    height: 200px;
-  }
-  .puzzle_7 img {
-    width: 48%;
-    margin-left: 7px;
-    margin-top: -68px;
-  }
-  .puzzle_7 span {
-    width: 37%;
-    display: inline-block;
-    margin-left: 35px;
-    padding-top: 50px;
-  }
-  .puzzle_8 {
-    height: 150px;
+  .puzzle__bottom_2 img {
+    width: 75%;
   }
 }
 
-@media (max-width: 992px) {
-  .puzzle {
-    flex-wrap: wrap;
-    width: 350px;
+@media (min-width: 994px) {
+  .puzzle_left-top {
+    border-radius: 30px 0px 0px 0px;
   }
-  .puzzle__left {
-    width: 350px;
+  .puzzle_left-bottom {
+    border-radius: 0px 0px 0px 30px;
   }
-  .puzzle__mid {
-    width: 100%;
-    height: 200px;
-    display: flex;
+  .puzzle_right-top {
+    border-radius: 0px 30px 0px 0px;
   }
-  .puzzle__right {
-    width: 350px;
-  }
-  .puzzle__middle-phone {
-    display: none;
-  }
-  .puzzle__middle-analytics {
-    width: 60%;
-  }
-  .puzzle_1 {
-    padding: 0px 25px 0 20px;
-  }
-  .puzzle_2 span {
-    text-align: end;
-  }
-  .puzzle_4 {
-    flex-direction: row;
-    width: 50%;
-    height: 200px;
-    background-color: #5ba9f7;
-  }
-  .puzzle_4 span {
-    width: 80%;
-    text-align: end;
-  }
-  .puzzle_4 img {
-    width: 45%;
-  }
-  .puzzle_6 img {
-    width: 70%;
-  }
-  .puzzle_6 span {
-    width: 75%;
-  }
-  .puzzle_7 span {
-    margin-left: 20px;
-  }
-  .puzzle_8 {
-    width: 50%;
-    height: 200px;
+  .puzzle_right-bottom {
+    border-radius: 0px 0px 30px 0px;
   }
 }
 
-@media (max-width: 349px) {
-  .puzzle {
-    width: 315px;
+@media (max-width: 993px) {
+  .puzzle__label {
+    font-size: 20px;
+    line-height: 22px;
   }
-  .puzzle_2 span {
+  .puzzle__top_1 {
+    height: 215px;
+  }
+  .puzzle__top_2 {
+    height: 350px;
+  }
+  .puzzle__bottom_1 {
+    height: 355px;
+  }
+  .puzzle__bottom_2 {
+    height: 220px;
+  }
+  .puzzle_left-top {
+    border-radius: 30px 0px 0px 0px;
+  }
+  .puzzle_right-bottom {
+    border-radius: 0px 0px 30px 0px;
+  }
+  .puzzle_right-top_mobile {
+    border-radius: 0px 30px 0px 0px;
+  }
+}
+
+@media (max-width: 350px) {
+  .puzzle {
     width: 90%;
-  }
-  .puzzle_7 img {
-    margin-top: -85px;
+    margin: auto;
   }
 }
 
