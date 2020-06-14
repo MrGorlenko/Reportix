@@ -196,6 +196,10 @@
   color: white;
 }
 
+.unlimited__item_3 {
+  padding-top: 20px;
+}
+
 .unlimited__label {
   font-size: 27px;
   text-align: center;
@@ -285,6 +289,9 @@
 @media (max-width: 992px) {
   .unlimited__pic {
     display: none;
+  }
+  .unlimited__item_3 {
+    padding-top: 0;
   }
 }
 

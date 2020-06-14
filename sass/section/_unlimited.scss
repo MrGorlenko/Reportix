@@ -57,6 +57,9 @@
         span{
             color: white;
         }
+        &_3{
+            padding-top: 20px;
+        }
     }
     &__label{
         font-size: 27px;
@@ -156,6 +159,11 @@
     .unlimited{
         &__pic{
             display: none;
+        }
+        &__item{
+            &_3{
+                padding-top: 0;
+            }
         }
     }
 }
