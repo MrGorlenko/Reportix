@@ -340,12 +340,12 @@
                 </div>
                 <div class="contacts__right col-lg-6">
                     <!-- Сама форма -->
-                    <form action="" class="form">
+                    <form id='getInTouchForm' action="" class="form">
                         <h3 class="form__title">Contacts</h3>
-                        <input type="text" class="form__input form__input_1" placeholder="Enter your name">
-                        <input type="text" class="form__input form__input_2" placeholder="Enter your email address">
+                        <input name=name type="text" class="form__input form__input_1" placeholder="Enter your name">
+                        <input name=email type="text" class="form__input form__input_2" placeholder="Enter your email address">
                         <p class="form__label">Your message...</p>
-                        <input type="text" class="form__message">
+                        <input name=letter type="text" class="form__message">
                         <button class="form__button">Submit</button>
                     </form>
                     <!-- Сама форма -->
@@ -460,6 +460,7 @@
     <script src='js/triangle.js'></script>
     <script src='js/burger.js'></script>
     <script src='js/menu.js'></script>
+    <script src='js/form.js'></script>
     <!-- Кастомные скрипты -->
 </body>
 </html>
