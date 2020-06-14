@@ -4,24 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reportix</title>
+    <!-- Основные кастомные стили -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Основные кастомные стили -->
+
+    <!-- Подключение шрифтов -->
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Подключение шрифтов -->
+
+    <!-- Библиотеки -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="libs/slick-theme.css">
     <link rel="stylesheet" href="libs/slick.css">
+    <!-- Библиотеки -->
 </head>
 <body class=body>
 
+    <!-- Блок навигации -->
     <nav class='navbar navbar-expand-lg fixed-top'>
         <div class="container">
+            <!-- Логотип -->
             <a class="navbar-brand" href="#"><img src="img/logo.svg" alt=""></a>
+            <!-- Логотип -->
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-    
+            <!-- Ссылки на блоки -->
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav ml-auto">
                   <li class="nav-item active">
@@ -38,14 +46,19 @@
                   </li>
                 </ul>
               </div>
+            <!-- Ссылки на блоки -->
 
+            <!-- Бургер меню -->
               <div class="burger">
                   <div class="up"></div>
                   <div class="down"></div>
               </div>
+            <!-- Бургер меню -->
         </div>
     </nav>
+    <!-- Блок навигации -->
 
+    <!-- Меню, которое вызывается на мобильной версии -->
     <div class="menu">
         <ul class="menu__list">
             <li><a href="#about">About</a></li>
@@ -54,7 +67,9 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
     </div>
+    <!-- Меню, которое вызывается на мобильной версии -->
 
+    <!-- Первый блок -->
     <section class="hero">
 
         <div class="container">
@@ -69,7 +84,8 @@
                     </div>
                 </div>
                 <div class="hero__logo col-12 col-lg-6">
-
+                     
+                    <!-- Логотип -->
                     <div class="logo__block">
                         <div id='line-1' class="logo__line logo__line_1"></div>
                         <div id='line-2' class="logo__line logo__line_2"></div>
@@ -91,58 +107,89 @@
                         <span class="logo__label logo__label_investor">Investor</span>
                         <span class="logo__label logo__label_founder">Founder</span>
                         <span class="logo__label logo__label_team">Team</span>
-            
                     </div>
+                    <!-- Логотип -->
 
                 </div>
             </div>
             <div class="row hero__buttons">
-                <img src="img/google-play-badge.svg" alt="">
-                <img src="img/app-store-badge.svg" alt="">
+                <!-- Ссылки на google play и app store -->
+                <a href=""><img src="img/google-play-badge.svg" alt=""></a>
+                <a href=""><img src="img/app-store-badge.svg" alt=""></a>
+                <!-- Ссылки на google play и app store -->
             </div>
         </div>
 
     </section>
+    <!-- Первый блок -->
 
+    <!-- Второй блок, блок с мозаикой -->
     <section id='about' class="about">
         <div class="about__container container p-0 p-lg-15">
 
-            
-
+            <!-- Мозаика -->
             <div class="puzzle row">
+                <!-- 1 Колонка мозаики -->
                 <div class="col-6  col-lg-3 px-0">
+                    <!-- 1 Элемент мозаики -->
                     <div class="puzzle__top_1 puzzle_left-top">
                         <p class="puzzle__label puzzle__label_1">
                             Flexible <br> payment plans
                         </p>
                         <img src="img/payments.png" alt="">
                     </div>
+                    <!-- 1 Элемент мозаики -->
+                    <!-- ################# -->
+                    <!-- 2 Элемент мозаики -->
                     <div class="puzzle__bottom_1 puzzle__bottom_1_1 puzzle_left-bottom">
                         <p class="puzzle__label">
                             Manage multiple <br> workspaces <br> simultaneously
                         </p>
                         <img src="img/screen-1.png" alt="">
                     </div>
+                    <!-- 2 Элемент мозаики -->
                 </div>
+                <!-- 1 Колонка мозаики -->
+                <!-- ################################################## -->
+                <!-- ################################################## -->
+                <!-- 2 Колонка мозаики -->
                 <div class="col-6  col-lg-3 px-0">
+                    <!-- 3 Элемент мозаики -->
                     <div class="puzzle__top_2 puzzle_right-top_mobile">
                         <img src="img/myProj.png" alt="">
                     </div>
+                    <!-- 3 Элемент мозаики -->
+                    <!-- ################# -->
+                    <!-- 4 Элемент мозаики -->
                     <div class="puzzle__bottom_2">
                         <p class="puzzle__label">Always <br> up to date</p>
                         <img src="img/person-analytics.png" alt="">
                     </div>
+                    <!-- 4 Элемент мозаики -->
                 </div>
+                <!-- 2 Колонка мозаики -->
+                <!-- ################################################## -->
+                <!-- ################################################## -->
+                <!-- 3 Колонка мозаики -->
                 <div class="col-6  order-lg-0 col-lg-3 px-0">
+                    <!-- 5 Элемент мозаики -->
                     <div class="puzzle__top_1">
                         <p class="puzzle__label">3 key user <br> groups</p>
                         <img src="img/analytics2.png" alt="">
                     </div>
+                    <!-- 5 Элемент мозаики -->
+                    <!-- ################# -->
+                    <!-- 6 Элемент мозаики -->
                     <div class="puzzle__bottom_1 puzzle__bottom_1_2 puzzle_left-bottom_mobile">
                         <p class="puzzle__label">Established <br> specialized threads</p>
                         <img src="img/middle-phone.png" alt="">
                     </div>
+                    <!-- 6 Элемент мозаики -->
                 </div>
+                <!-- 3 Колонка мозаики -->
+                <!-- ################################################## -->
+                <!-- ################################################## -->
+                <!-- 4 Колонка мозаики -->
                 <div class="col-6  col-lg-3 px-0">
                     <div class="puzzle__top_2 puzzle_right-top">
                         <img src="img/mobile-bottom.png" alt="">
@@ -153,11 +200,15 @@
                         <img src="img/analytics.png" alt="">
                     </div>
                 </div>
+                <!-- 4 Колонка мозаики -->
             </div>
+            <!-- Мозаика -->
 
         </div>
     </section>
+    <!-- Второй блок, блок с мозаикой -->
 
+    <!-- Третий блок, с функциями -->
     <section id='features' class="unlimited">
         <div class="unlimited__container container container-lg">
             <div class="row">
@@ -168,35 +219,52 @@
                 <div class="col-12 col-lg-8 col-xl-8 unlimited__content">
                     <h3 class="unlimited__title">Unlimited features, Unlimited flexibility</h3>
                     <div class="unlimited__row row">
+                        <!-- ############################# -->
+                        <!-- Элемент 1 с иконкой и лейблом -->
                         <div class="unlimited__item">
                             <img src="img/comp-icon.svg" alt="">
-                            <span class="unlimited__label">Device Mockups</span>
-                            <span class="unlimited__text">Ready to use HTML/CSS device mockups, no Photoshop required!</span>
+                            <span class="unlimited__label">Stay mobile</span>
+                            <span class="unlimited__text">Keep in touch with your teams anywhere anytime</span>
                         </div>
+                        <!-- Элемент 1 с иконкой и лейблом -->
+                        <!-- ############################# -->
+                        <!-- Элемент 2 с иконкой и лейблом -->
                         <div class="unlimited__item">
                             <img src="img/flexible.svg" alt="">
-                            <span class="unlimited__label">Flexible Use</span>
-                            <span class="unlimited__text unlimited__text_3">Put an image, video, animation, or anything else in the screen!</span>
+                            <span class="unlimited__label">Report structure</span>
+                            <span class="unlimited__text unlimited__text_3">Get away from fat reports and desktops.
+                                Report efficiently on the go with your phone</span>
                         </div>
+                        <!-- Элемент 2 с иконкой и лейблом -->
+                        <!-- ############################# -->
+                        <!-- Элемент 3 с иконкой и лейблом -->
                         <div class="unlimited__item">
                             <img src="img/free-to-use.svg" alt="">
-                            <span class="unlimited__label">Free to Use</span>
-                            <span class="unlimited__text">As always, this theme is free to download and use for any purpose!</span>
+                            <span class="unlimited__label">Interlinked specialised workspaces</span>
+                            <span class="unlimited__text">Separate your investors and your team to share what is essential for them</span>
                         </div>
+                        <!-- Элемент 3 с иконкой и лейблом -->
+                        <!-- ############################# -->
+                        <!-- Элемент 4 с иконкой и лейблом -->
                         <div class="unlimited__item">
                             <img src="img/open-sourse.svg" alt="">
-                            <span class="unlimited__label">Open Sourse</span>
-                            <span class="unlimited__text unlimited__text_4">Since this theme is MIT licensed, you can use it commercially!</span>
+                            <span class="unlimited__label">Feels like home</span>
+                            <span class="unlimited__text unlimited__text_4">Report you are used to, just better</span>
                         </div>
+                        <!-- Элемент 4 с иконкой и лейблом -->
+                        <!-- ############################# -->                       
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- Третий блок, с функциями -->
 
+    <!-- Четвертый блок, цены -->
     <section id=pricing class="pricing">
         <h2 class="pricing__title">Pricing</h2>
 
+        <!-- Анимационные треугольники -->
         <img id='pric-1' class='pricing__triangle' src="img/6.png" alt="">
         <img id=pric-2 src="img/7.png" alt="" class="pricing__triangle">
         <img id=pric-3  src="img/8.png" alt="" class="pricing__triangle">
@@ -205,12 +273,15 @@
         <img id='pric-5' class='pricing__triangle' src="img/6.png" alt="">
         <img id=pric-7  src="img/8.png" alt="" class="pricing__triangle">
         <img id=pric-8 src="img/9.png" alt="" class="pricing__triangle">
+        <!-- Анимационные треугольники -->
 
-
+        <!-- Слайдер -->
         <div class="slider__global">
+            <!-- Стрелка Назад -->
             <img id='prev' src="img/prev.png" alt="">
+            <!-- Стрелка Назад -->
             <div class="slider">
-    
+                <!-- 1 Элемент слайдера - Free -->
                 <div> 
                 <div class="slider__item">
                     <span class=slider__cost>free</span>
@@ -228,10 +299,11 @@
                 <button class="slider__button">Get</button>
                 </div>
                 </div>
+                <!-- 1 Элемент слайдера - Free -->
 
-    
+                <!-- 2 Элемент слайдера - 49 долларов -->
                 <div>
-              <div class="slider__item"> 
+                <div class="slider__item"> 
                 <span class=slider__cost>pro</span>
                 <p class="slider__price"> <span class="slider__num">$49</span> <span class="slider__per">/month</span> </p>
                 <ul class=slider__list>
@@ -245,14 +317,21 @@
                     <li class="slider__elem">Monthly Status Reports</li>
                 </ul>
                 <button class="slider__button">Get</button>
-              </div>
                 </div>
+                </div>
+                <!-- 2 Элемент слайдера - 49 долларов -->
             </div>
+            <!-- Стрелка Вперед -->
             <img id='next' src="img/next.png" alt="">
+            <!-- Стрелка Вперед -->
         </div>
+        <!-- Слайдер -->
+
         </div>
     </section>
+    <!-- Четвертый блок, цены -->
 
+    <!-- Пятый блок, форма обратной связи -->
     <section id=contact class="contacts">
         <div class="container">
             <div class="row">
@@ -260,6 +339,7 @@
                     <img class=contacts__img src="img/lady.png" alt="">
                 </div>
                 <div class="contacts__right col-lg-6">
+                    <!-- Сама форма -->
                     <form action="" class="form">
                         <h3 class="form__title">Contacts</h3>
                         <input type="text" class="form__input form__input_1" placeholder="Enter your name">
@@ -268,17 +348,24 @@
                         <input type="text" class="form__message">
                         <button class="form__button">Submit</button>
                     </form>
+                    <!-- Сама форма -->
                 </div>
             </div>
         </div>
     </section>
+    <!-- Пятый блок, форма обратной связи -->
 
+    <!-- Шестой блок, скачать продукт -->
     <section class="download">
+
+        <!-- Анимационные треугольники -->
         <img id=pric-9 src="img/6.png" alt="" class=pricing__triangle>
         <img id=pric-10 src="img/7.png" alt="" class="pricing__triangle">
         <img id=pric-11 src="img/6.png" alt="" class="pricing__triangle">
         <img id=pric-12 src="img/9.png" alt="" class="pricing__triangle">
         <img id=pric-13 src="img/6.png" alt="" class="pricing__triangle">
+        <!-- Анимационные треугольники -->
+
         <div class="container">
             <div class="row">
                 <div class="buy col-lg-7">
@@ -292,8 +379,10 @@
                         est dignissimos dolores laborum eum minima assumenda atque, sint accusantium 
                         fuga exercitationem quo quasi animi culpa esse?
                     </p>
-                    <img src="img/google-play-badge.svg" alt="">
-                    <img src="img/app-store-badge.svg" alt="">
+                    <!-- Ссылки на скачивание -->
+                    <a href=""><img src="img/google-play-badge.svg" alt=""></a>
+                    <a href=""><img src="img/app-store-badge.svg" alt=""></a>
+                    <!-- Ссылки на скачивание -->
                 </div>
                 <div class="col-lg-5">
                     <img class='download__pic' src="img/download-phone.png" alt="">
@@ -301,7 +390,9 @@
             </div>
         </div>
     </section>
+    <!-- Шестой блок, скачать продукт -->
 
+    <!-- Подвал сайта -->
     <footer class="footer">
         <div class="container container-lg px-0">
             <div class="row footer__container justify-content-between">
@@ -335,8 +426,10 @@
             </div>
         </div>
     </footer>
+    <!-- Подвал сайта -->
 
 
+    <!-- Модальное окно - будет активировано, если прописать соответствующий скрипт -->
     <div id='modal-1' class="modal">
         <div class="modal__block">
             <img src="img/axe.png" alt="" class="modal__close">
@@ -347,16 +440,19 @@
             <img class='modal__pic' src="img/screen-1.png" alt="">
         </div>
     </div>
+    <!-- Модальное окно - будет активировано, если прописать соответствующий скрипт -->
     
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+    <!-- Библиотеки -->
     <script src='libs/jquery.js'></script>
     <script src='libs/slick.min.js'></script>
     <script src='libs/bootstrap.min.js'></script>
     <script src='libs/bootstrap.bundle.min.js'></script>
     <script src='libs/anime.min.js'></script>
+    <!-- Библиотеки -->
+
+    <!-- Кастомные скрипты -->
     <script src='js/hero.js'></script>
     <script src='js/logo.js'></script>
     <script src='js/puzzle.js'></script>
@@ -364,46 +460,6 @@
     <script src='js/triangle.js'></script>
     <script src='js/burger.js'></script>
     <script src='js/menu.js'></script>
+    <!-- Кастомные скрипты -->
 </body>
 </html>
-
-<!-- 
-<div class="puzzle">
-    <div class="puzzle__item puzzle__left">
-      <div id='puzzle-1' class="puzzle_1">
-          <img src="img/payments.png" alt="">
-          <span class='puzzle__label'>Flexible <br> payment plans</span>
-      </div>
-      <div class="puzzle_2">
-          <span class="puzzle__label">Manage multiple workspaces simultaneously</span>
-          <img src="img/screen-1.png" alt="">
-      </div>
-      <div class="puzzle_3">
-          <span class="puzzle__label">Always <br> up to date</span>
-          <img src="img/person-analytics.png" alt="">
-      </div>
-    </div>
-    <div class="puzzle__item puzzle__mid">
-        <div class="puzzle_4">
-          <span class="puzzle__label">Established <br> specialized <br> threads </span>
-          <img class='puzzle__middle-phone' src="img/middle-phone.png" alt="">
-        </div>
-        <div class="puzzle_8">
-          <img class='puzzle__middle-analytics' src="img/analytics2.png" alt="">
-        </div>
-    </div>
-    <div class="puzzle__item puzzle__right">
-        <div class="puzzle_5">
-            <img src="img/myProj.png" alt="">
-        </div>
-        <div class="puzzle_6">
-            <span class='puzzle__label'>Concise</span>
-            <img src="img/analytics.png" alt="">
-            <div></div>
-        </div>
-        <div class="puzzle_7">
-            <img src="img/mobile-bottom.png" alt="">
-            <span class="puzzle__label">Upload files of different format</span>
-        </div>
-    </div>
-</div> -->
