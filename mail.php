@@ -1,6 +1,6 @@
 <?php 
 
-$receiver = "tema7198@gmail.com";
+$receiver = "info@thereportix.com";
 
 
 $name = htmlspecialchars(trim($_POST["name"]));
