@@ -34,6 +34,8 @@
 
         border-radius: 30px;
         margin-bottom: 20px;
+
+
     }
     &__cost{
         text-transform: uppercase;
@@ -53,8 +55,11 @@
         width: 325px;
         padding-left: 20px;
         margin-bottom: 0;
+
+        list-style-type: none;
         li{
             margin-bottom: 20px;
+
             &:last-child{
                 margin-bottom: 0;
             }
@@ -73,6 +78,24 @@
         &:hover{
             background-color: darken($color: #e94556, $amount: 15);
             transition: background-color .3s ease;
+        }
+    }
+    &__elem{
+        display: flex;
+        align-items: center;
+        &_yes::before{
+            content: url(../../img/yes.png);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+        }
+        &_no::before{
+            content: url(../../img/no.png);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;            
         }
     }
 }

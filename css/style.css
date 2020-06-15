@@ -1252,6 +1252,7 @@
   width: 325px;
   padding-left: 20px;
   margin-bottom: 0;
+  list-style-type: none;
 }
 
 .slider__list li {
@@ -1277,6 +1278,27 @@
 .slider__button:hover {
   background-color: #ca182a;
   transition: background-color .3s ease;
+}
+
+.slider__elem {
+  display: flex;
+  align-items: center;
+}
+
+.slider__elem_yes::before {
+  content: url(../../img/yes.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.slider__elem_no::before {
+  content: url(../../img/no.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
 }
 
 #prev {
